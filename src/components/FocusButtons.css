@@ -1,0 +1,16 @@
+.focusbuttons button {
+    margin: auto;
+}
+
+
+.focusbuttons button:hover{
+    border: 2px solid #D9CDF7;
+}
+
+.focusbuttons button:nth-child(2) {
+    background-color: #3C3748;
+}
+
+.focusbuttons button:nth-child(3) {
+    background: none;
+}

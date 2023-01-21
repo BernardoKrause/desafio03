@@ -1,0 +1,11 @@
+.defaultbuttons button {
+    margin: auto;
+}
+
+.defaultbuttons button:nth-child(2) {
+    background-color: #3C3748;
+}
+
+.defaultbuttons button:nth-child(3) {
+    background: none;
+}

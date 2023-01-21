@@ -1,0 +1,19 @@
+.hoverbuttons button {
+    margin: auto;
+}
+
+.hoverbuttons button:nth-child(1):hover {
+    background-color: #9674E5;
+}
+
+.hoverbuttons button:nth-child(2) {
+    background-color: #3C3748;
+}
+
+.hoverbuttons button:nth-child(2):hover {
+    background-color: #6A617F;
+}
+
+.hoverbuttons button:nth-child(3) {
+    background: none;
+}

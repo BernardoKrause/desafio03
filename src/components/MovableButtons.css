@@ -1,0 +1,11 @@
+.movablebuttons button, .movablebuttons img:hover {
+    cursor: url(/src/assets/move-cursor.png), auto;
+}
+
+.movablebuttons button:nth-child(2) {
+    background-color: #3C3748;
+}
+
+.movablebuttons button:nth-child(3) {
+    background: none;
+}

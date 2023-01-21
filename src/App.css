@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+  cursor: url(/src/assets/default-cursor.png), auto;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: #0B0911;
+  color: #fff;
+}
+
+.linehover:hover {
+  background-color: #020203;
+  overflow: unset;
+}
+
+table {
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow:0px 0px 0px 4px #1C162C inset;
+}
+
+
+table tr td {
+  padding: 16px 24px;
+  text-align: center;
+}
+
+.tipos header {
+  padding: 0px 0px 16px 32px;
+}
+
+.tipos header h3{
+  font-family: inter;
+  font-size: 32px;
+}
+
+.tipos header p{
+  margin-top: 8px;
+  font-size: 19px;
+  font-weight: 200;
+}
+
+main {
+  padding-inline: 32px;
+}
+
+.difcolor {
+  background-color: #1C162C;
+  font-size: 11px;
+}
+
+.teste {
+  background-color: #130F1E;
+  height: 100vh;
+  padding: 48px 24px;
+}
+
+.teste h3 {
+  font-family: Inter;
+  font-size: 32px;
+}
+
+.teste p {
+  margin-top: 8px;
+}
+
+.teste main div {
+  display: flex;
+  flex-direction: column;
+  
+  justify-content: space-around;
+  height: 240px;
+  margin-top: 32px;
+}
+

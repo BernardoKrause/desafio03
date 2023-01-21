@@ -1,0 +1,16 @@
+.disabledbuttons button {
+    margin: auto;
+    opacity: 0.65;
+}
+
+.disabledbuttons button:hover {
+    cursor: url(/src/assets/disabled-cursor.png), auto;
+}
+
+.disabledbuttons button:nth-child(2) {
+    background-color: #6A617F;
+}
+
+.disabledbuttons button:nth-child(3) {
+    background: none;
+}
